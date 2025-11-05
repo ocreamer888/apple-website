@@ -222,7 +222,7 @@ This project is for educational purposes only. All Apple trademarks, logos, and 
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/da_oceam)
+X: [@da_oceam](https://twitter.com/da_oceam)
 
 Project Link: [https://github.com/yourusername/apple-website](https://github.com/ocreamer888/apple-website)
 
