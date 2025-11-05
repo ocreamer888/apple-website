@@ -12,7 +12,7 @@ const Highligths = () => {
     useGSAP(() => {
         gsap.to(['.left-column', '.right-column'], {
             scrollTrigger: {
-                trigger: '#highligths',
+                trigger: '#highlights',
                 start: isMobile ? 'bottom bottom' : 'top top',
             },
             opacity: 1,

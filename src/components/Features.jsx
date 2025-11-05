@@ -14,7 +14,7 @@ import gsap from 'gsap'
 const ModelScroll = () => {
   const groupRef = useRef(null)
   const isMobile = useMediaQuery({ query: '(max-width: 1024px)'})
-  const {texture} = useMacbookStore();
+  const { setTexture } = useMacbookStore();
 
   // Preload all feature videos during component mount
   useEffect(() => {
