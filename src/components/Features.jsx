@@ -74,6 +74,10 @@ const ModelScroll = () => {
         .to('.box4', { opacity: 1, y:0})
         .call(() => setTexture('/videos/feature-5.mp4'))
         .to('.box5', { opacity: 1, y:0})
+        featureSequence.forEach((feature, index) => {
+          timeline.call(() => setTexture(feature.videoPath), `+=${index === 0 ? 0 : 1}`);
+          timeline.to(`.box${feature.id}`, { opacity: 1, y: 0 });
+        });
 
   }, []);
   
