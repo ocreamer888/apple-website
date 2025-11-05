@@ -2,6 +2,7 @@ import React from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+
  
 const Showcase = () => {
 
@@ -27,10 +28,10 @@ const Showcase = () => {
 
   return (
     <section id='showcase'>
-      <div className="media">
+      <div className="media rounded-3xl overflow-hidden">
         <video src="/videos/game.mp4"  autoPlay muted playsInline loop/>
         <div className="mask">
-            <img src="/mask-logo.svg" />
+            <img src="/mask-logo.svg" alt="Apple logo mask" />
         </div>
       </div>
       <div className="content">
@@ -65,7 +66,7 @@ const Showcase = () => {
                 </div>
                 <div className="space-y-2">
                     <p>Up to</p>
-                    <h3>1.5 faster</h3>
+                    <h3>1.5x faster</h3>
                     <p>CPU performance than M2</p>
                 </div>
              </div>
